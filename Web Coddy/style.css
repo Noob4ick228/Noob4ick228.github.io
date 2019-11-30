@@ -1,0 +1,160 @@
+html{
+	scroll-behavior: smooth;
+}
+body,p,h1,h2{
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	
+}
+body{
+	overflow-x: hidden;
+}
+header{
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(to right bottom, #1bc3f0, #00cdf2, #00d8f2, #00e2ef, #12ebeb);
+}
+nav{
+	width: 100%;	
+	display: flex;
+	height: 120px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.menu-item:nth-child(1){
+	flex-grow: 1;
+	font-size: 30px;
+	margin-left: 50px;
+}
+.menu-item{
+	font-size: 20px;
+	margin-right: 110px;
+	color: #fff;
+}
+
+.cont img{
+	width: 50%;
+	margin-left: -39px;
+	margin-top: -67px;
+}
+.cont{
+	display: flex;
+	width: 98%;
+	height: 400px;
+	align-items: center;
+}
+.cont-info{
+	width: 50%;
+	margin-top: 83px;
+	text-align: center;
+}
+.cont-info p{
+	font-size: 18px;
+	width: 82%;
+    margin: 0 auto;
+    margin-top: 25px;
+   	margin-bottom: 50px;	
+}
+h1{
+	line-height: 55px;
+	font-size: 35px;
+	color: #0D01FA;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 50px;
+	line-height: 55px;
+	width: 190px;
+	border: 2px solid white;
+	color: #0D01FA;
+	font-weight: bold;
+	transition: all 0.4s ease;
+}
+a:hover{
+	background: yellow;
+}
+section{
+	width: 100vw;
+	height: 100vh;
+}
+.h2-cont{
+	display: flex;
+	width: 95%;
+	margin: 0 auto;
+	height: 80px;
+	justify-content: center;
+	padding-top: 100px;
+}
+h2{
+	font-size: 70px;
+    margin-right: 50px;
+    color: #9E0D99;
+	text-align: center;
+}
+.h2-cont p{
+	width: 50%;
+    font-size: 20px;
+    color: #099FD0;	
+    font-weight: bold;
+}
+.flex{
+	width: 90%;
+	margin:0px auto;
+	margin-top: 8vw;
+	display: flex;
+	flex-direction: row;
+}
+.flex div{
+	padding: 1vw;
+	text-align: center;
+	width: 20vw;
+	height: 17vw;
+	border: 2px solid #9E0D99;
+	margin-right: 2vw;
+}
+.flex img{
+	margin:2vw;
+}
+#three img{
+	width: 15%;
+	position: absolute;
+}
+#three{
+	background: #45E2EC;
+	position: relative;
+}
+.brend{
+	position: absolute;
+	width: 14%;
+	transition: transform 0.4s ease;
+}
+.brend:nth-of-type(1){
+	width: 17%;
+	left: 10%;
+	top: 20%;
+}
+.brend:nth-of-type(2){
+	top: 40%;
+	left: 25%;
+}
+.brend:nth-of-type(3){
+	top: 75%;
+	left: 50%;
+	margin-left: -8.5%;
+}
+.brend:nth-of-type(4){
+	right: 25%;
+	top: 40%;
+}
+.brend:nth-of-type(5){
+	top: 22%;
+	right: 11%;
+}
+.brend:hover{
+	transform: scale(1.1);
+}
+#three h2{
+	padding-top: 30px;
+}
